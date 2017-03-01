@@ -41,7 +41,7 @@ int main()
 
     while(cin>>prev){
         string current;
-        deque<int> nodes;
+        vector<int> nodes;
         vector<bool> used(MX_Z,false);
         adjList.clear();
         adjList.resize(26);
