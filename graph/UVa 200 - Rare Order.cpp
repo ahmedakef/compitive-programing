@@ -45,7 +45,7 @@ int main()
         vector<bool> used(MX_Z,false);
         adjList.clear();
         adjList.resize(26);
-        int flag=true;
+
         while(cin>>current && current!="#"){
 
             for(int i = 0; i < min(sz(prev),sz(current)); i++){
