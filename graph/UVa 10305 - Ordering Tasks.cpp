@@ -57,6 +57,7 @@ int main()
                 dfs(i);
         }
 
+
         for(int i = sz(topsort)-1 ; i>=1 ;i--){
             cout<<topsort[i]<<" ";
         }
